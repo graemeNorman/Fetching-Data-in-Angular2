@@ -11,7 +11,7 @@ import {Post} from './post';
         <div>
             <ul class="items">
                 <li *ngFor="let post of posts">
-                    <span>{{post.title}}</span>
+                    <span>{{post.mod_name}} - <strong>{{post.mod_switch}}</strong></span>
                 </li>
             </ul>
         </div>

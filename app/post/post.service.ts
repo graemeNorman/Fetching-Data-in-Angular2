@@ -12,7 +12,7 @@ export class PostService {
     }
 
     getData():Observable<Post[]> {
-        return this.http.get('http://jsonplaceholder.typicode.com/posts/')
+        return this.http.get('http://demo7313901.mockable.io/coutts/settings')
             .map(this.extractData)
             .catch(this.handleError);
     }

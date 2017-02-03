@@ -8,7 +8,7 @@ import {PostService} from './post.service';
 @Component({
     selector: 'post-parent',
     template: `
-        <h2>View Posts</h2>
+        <h2>View Config</h2>
         <post-list></post-list>
     `,
     directives: <any>[PostListComponent],
